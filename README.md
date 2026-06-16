@@ -38,7 +38,7 @@ W bazie zastosowano:
 
 ### `01_schema_and_data.sql`
 
-Skrypt tworzący bazę danych, jej tabele, relacje, ograniczenia oraz przykładowe dane.
+Skrypt tworzący tabele, relacje, ograniczenia oraz przykładowe dane w utworzonej wcześniej pustej bazie danych.
 
 ### `02_queries_analytics.sql`
 
@@ -88,12 +88,13 @@ Na podstawie danych zapisanych w bazie można sprawdzić między innymi:
 
 1. Otwórz Microsoft SQL Server Management Studio.
 2. Połącz się z lokalnym lub zdalnym serwerem SQL Server.
-3. Otwórz plik `01_schema_and_data.sql`.
-4. Uruchom cały skrypt.
-5. Otwórz plik `02_queries_analytics.sql` i uruchamiaj wybrane zapytania analityczne.
-6. Otwórz plik `03_crud_examples.sql`, aby przetestować operacje dodawania, modyfikowania i usuwania danych.
+3. Utwórz pustą bazę danych, np. `F1_BAZA`.
+4. Wybierz utworzoną bazę jako aktywną bazę w SSMS.
+5. Otwórz plik `01_schema_and_data.sql` i uruchom cały skrypt.
+6. Otwórz plik `02_queries_analytics.sql` i uruchamiaj wybrane zapytania analityczne.
+7. Otwórz plik `03_crud_examples.sql`, aby przetestować operacje dodawania, modyfikowania i usuwania danych.
 
-Skrypt tworzący bazę należy uruchomić przed pozostałymi plikami.
+Skrypt `01_schema_and_data.sql` należy uruchomić przed pozostałymi plikami.
 
 ## Dane testowe
 
