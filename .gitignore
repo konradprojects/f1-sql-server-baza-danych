@@ -1,0 +1,14 @@
+*.bak
+
+*.tmp
+*.log
+
+.vs/
+.vscode/
+*.suo
+*.user
+
+Thumbs.db
+Desktop.ini
+
+.DS_Store
